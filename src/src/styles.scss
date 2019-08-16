@@ -25,14 +25,13 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
-//@import "~bulma/bulma"; // - import everything;
-// Import only what you need from Bulma
-@import "../node_modules/bulma/sass/utilities/_all.sass";
-@import "../node_modules/bulma/sass/base/_all.sass";
-@import "../node_modules/bulma/sass/elements/button.sass";
+@import "~bulma/bulma"; // - import everything;
+// Alternatively...import only what you really need from Bulma
+/*
 @import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/image.sass";
 @import "../node_modules/bulma/sass/elements/title.sass";
 @import "../node_modules/bulma/sass/form/_all.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
-@import "../node_modules/bulma/sass/layout/section.sass"
+*/
