@@ -5,6 +5,7 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
+  watch: true,
   // https://webpack.js.org/plugins/mini-css-extract-plugin/#minimizing-for-production
   optimization: {
     minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],

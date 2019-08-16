@@ -1,8 +1,7 @@
 @charset "utf-8";
-//@import "~bulma/bulma" - import everything;
 
-// Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+// Import Lato Google Font
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 
 // Set your brand colors
 $purple: #8A4D76;
@@ -12,10 +11,10 @@ $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
+$family-sans-serif: "Lato", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
-$primary: $purple;
+//$primary: $purple;
 $link: $pink;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
@@ -26,6 +25,7 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
+//@import "~bulma/bulma"; // - import everything;
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
@@ -35,4 +35,4 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/form/_all.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
-@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/layout/section.sass"
