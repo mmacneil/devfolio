@@ -1,2 +1,2 @@
 # devfolio
-A simple, lightweight, single-page portfolio for developers
+A simple, responsive, single-page portfolio for developers built with Bulma, Sass and Font Awesome.
