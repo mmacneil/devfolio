@@ -9,18 +9,20 @@ $pink: #FA7C91;
 $brown: #757763;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
+$black: #333;
 
 // Update Bulma's global variables
 $family-sans-serif: "Lato", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 //$primary: $purple;
-$link: $pink;
+//$link: $pink;
+$link: $black;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
+//$body-background-color: $beige-lighter;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
