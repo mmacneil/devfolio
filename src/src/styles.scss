@@ -27,6 +27,8 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
+.card-gap {margin-top:1.75rem}
+
 @import "~bulma/bulma"; // - import everything;
 // Alternatively...import only what you really need from Bulma
 /*
