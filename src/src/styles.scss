@@ -32,8 +32,10 @@ $input-shadow: none;
 .card-gap {margin-top:1.75rem}
 .modal-trigger { cursor: pointer; }
 
-
 @import "~bulma/bulma"; // - import everything;
+
+// override specific bulma styles not exposed in variables
+.section {padding: 2.25rem 1.5rem}
 
 // Alternatively...import only what you really need from Bulma
 /*
@@ -43,4 +45,5 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/form/_all.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
+...
 */
