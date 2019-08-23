@@ -8,7 +8,7 @@ $family-sans-serif: "Lato", sans-serif;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
-// Theme colors
+// More theme colors could be added here...
 $primary: #454545;
 
 
@@ -19,6 +19,7 @@ $footer-padding: 3rem 1.5rem;
 
 .card-gap {margin-top:1.75rem}
 .modal-trigger { cursor: pointer; }
+a.icon > strong {margin-left:.25rem}
 
 // import everything - alternatively import just what you need: https://bulma.io/documentation/overview/modular/
 @import "~bulma/bulma"; 
