@@ -3,48 +3,28 @@
 // Import Lato Google Font
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 
-// Set your brand colors
-$purple: #8A4D76;
-$pink: #FA7C91;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
-$black: #333;
 
 // Update Bulma's global variables
 $family-sans-serif: "Lato", sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-//$primary: $purple;
-$link: $pink;
-//$link: $black;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
+// Theme colors here
+$primary: #454545;
+
 // Update some of Bulma's component variables
-//$body-background-color: $beige-lighter;
-$control-border-width: 2px;
-$input-border-color: transparent;
-$input-shadow: none;
 $footer-padding: 3rem 1.5rem;
 
-/* Styles */
+// Custom Styles
 
 .card-gap {margin-top:1.75rem}
 .modal-trigger { cursor: pointer; }
 
-@import "~bulma/bulma"; // - import everything;
+// import everything - alternatively import just what you need: https://bulma.io/documentation/overview/modular/
+@import "~bulma/bulma"; 
 
-// override specific bulma styles not exposed in variables
+// override specific bulma styles
+
 .section {padding: 2.15rem 1.5rem}
 
-// Alternatively...import only what you really need from Bulma
-/*
-@import "../node_modules/bulma/sass/elements/container.sass";
-@import "../node_modules/bulma/sass/elements/image.sass";
-@import "../node_modules/bulma/sass/elements/title.sass";
-@import "../node_modules/bulma/sass/form/_all.sass";
-@import "../node_modules/bulma/sass/components/navbar.sass";
-@import "../node_modules/bulma/sass/layout/hero.sass";
-...
-*/
+ 
