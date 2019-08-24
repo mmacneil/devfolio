@@ -9,23 +9,23 @@ $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // More theme colors could be added here...
-$primary: #454545;
+$primary: hsl(171, 100%, 41%);
 
-
-// Update some of Bulma's component variables
+// Update some of Bulma's component & color variables
 $footer-padding: 3rem 1.5rem;
+$link: $primary;
+$info:  #454545;
 
 // Custom Styles
-
 .card-gap {margin-top:1.75rem}
 .modal-trigger { cursor: pointer; }
 a.icon > strong {margin-left:.25rem}
 
 // import everything - alternatively import just what you need: https://bulma.io/documentation/overview/modular/
-@import "~bulma/bulma"; 
+@import "~bulma/bulma";
+ 
 
 // override specific bulma styles
-
 .section {padding: 2.15rem 1.5rem}
 
  
