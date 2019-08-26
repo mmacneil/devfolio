@@ -3,6 +3,9 @@ A simple, responsive, single-page portfolio for developers built with Bulma, Sas
 
 View the [demo here](https://mmacneil.github.io/devfolio/).
 
+### Desktop view
+<img src="https://github.com/mmacneil/devfolio/blob/master/docs/devfolio-desktop.gif" />
+
 ## Setup
 
 1. Clone or fork this repository.
