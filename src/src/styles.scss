@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+// https://github.com/metafizzy/flickity/issues/754
+@import "~flickity/css/flickity.css";
+
 // Import Lato Google Font
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 
@@ -11,6 +14,10 @@ $fullhd-enabled: false;
 // More theme colors could be added here...
 $primary: #454545;
 
+$spaces: ("0": 0, "1": 1.65rem, "2": 1.75rem);
+
+$margin-default: map-get($spaces, "2") map-get($spaces, "0");
+
 // Update some of Bulma's component & color variables
 $footer-padding: 3rem 1.5rem;
 $link: hsl(171, 100%, 41%);
@@ -19,6 +26,7 @@ $link: hsl(171, 100%, 41%);
 .card-gap {margin-top:1.75rem}
 .modal-trigger { cursor: pointer; }
 a.icon > strong {margin-left:.25rem}
+.modal-card-body div.content {margin:$margin-default}
 
 // import everything - alternatively import just what you need: https://bulma.io/documentation/overview/modular/
 @import "~bulma/bulma"; 
@@ -28,6 +36,10 @@ a.icon > strong {margin-left:.25rem}
 
 @function theme-color($key: "primary") {
     @return map-get($theme-colors, $key);
-  }
+}
+
+// Flickity - begin
+.carousel-cell {width:100%}
+// Flickity - end
 
  
