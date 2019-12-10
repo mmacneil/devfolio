@@ -7,7 +7,7 @@ View the [demo here](https://mmacneil.github.io/devfolio/).
 <img src="https://github.com/mmacneil/devfolio/blob/master/docs/devfolio-desktop.gif" />
 
 ### Responsive version
-<img src="https://github.com/mmacneil/devfolio/blob/master/docs/devfolio-responsive.gif" height="285" />
+<img src="https://github.com/mmacneil/devfolio/blob/master/docs/devfolio-responsive.gif" height="485" />
 
 ## Setup
 
