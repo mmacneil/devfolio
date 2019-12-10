@@ -1,5 +1,5 @@
 # devfolio
-A simple, responsive, single-page portfolio for developers built with Bulma, Sass and Font Awesome.
+A simple, responsive, single-page portfolio for developers built with Bulma, Sass Font Awesome and Flickity.
 
 View the [demo here](https://mmacneil.github.io/devfolio/).
 
@@ -19,7 +19,7 @@ View the [demo here](https://mmacneil.github.io/devfolio/).
  <pre>
  <code>src\>npm run build</code></pre>
  4. Open `index.html` locally in your favorite browser.
- 5. Modify accordingly - styles, colors and variables can be changed in `styles.scss`.  Refer to the Bulma docs for guidance on how to quickly customize further to suit your tastes using  [color helpers](https://bulma.io/documentation/modifiers/color-helpers/) and [variables](https://bulma.io/documentation/customize/variables/).
+ 5. Modify accordingly - styles, colors and variables can be changed in `styles.scss`.  Refer to the Bulma docs for guidance on how to quickly customize further to suit your tastes using  [color helpers](https://bulma.io/documentation/modifiers/color-helpers/) and [variables](https://bulma.io/documentation/customize/variables/).  See the [Flickity](https://github.com/metafizzy/flickity) docs if you wish to modify the carousel.
  
  ## Contact
  markmacneil@gmail.com
