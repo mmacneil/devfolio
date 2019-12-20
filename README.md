@@ -11,7 +11,7 @@ View the [demo here](https://mmacneil.github.io/devfolio/).
 
 ## Setup
 
-1. Clone, fork or <code>template</code> this repository.
+1. Clone, fork or create a template from this repository.
 2. Install required dependencies from your terminal by running `npm install` from the project folder root containing `package.json`.
  <pre>
  <code>src\>npm install</code></pre>
