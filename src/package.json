@@ -1,6 +1,6 @@
 {
   "name": "devfolio",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "A simple, responsive, single-page portfolio and resume for developers built with Bulma, Sass, Font Awesome and Flickity.",
   "main": "webpack.config.js",
   "repository": "https://github.com/mmacneil/devfolio",
